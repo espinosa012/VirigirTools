@@ -1,6 +1,6 @@
 using Godot;
 
-namespace Tartheside.mono.utilities.logger;
+namespace VirigirTools.logger;
 
 public partial class VLogger : GodotObject
 {

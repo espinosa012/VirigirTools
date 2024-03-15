@@ -1,5 +1,7 @@
 using MathNet.Numerics;
 
+namespace VirigirTools.math;
+
 public static class VMathHelper
 {
     // Constants

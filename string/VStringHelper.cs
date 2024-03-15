@@ -1,5 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
+namespace VirigirTools.@string;
 
 public static class VStringHelper
 {

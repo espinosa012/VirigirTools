@@ -1,6 +1,9 @@
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using Godot;
+using VirigirTools.json;
+using VirigirTools.opencv;
+using VirigirTools.@string;
 
 namespace VirigirTools.math.noise;
 

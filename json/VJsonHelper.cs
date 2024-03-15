@@ -1,6 +1,7 @@
 using System.Text.Json;
 using Godot;
 
+namespace VirigirTools.json;
 
 public static class VJsonHelper
 {

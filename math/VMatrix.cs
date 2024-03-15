@@ -1,6 +1,8 @@
 using MathNet.Numerics.LinearAlgebra;
 using MathNet.Numerics.LinearAlgebra.Single;
 
+namespace VirigirTools.math;
+
 public class VMatrix
 {
     // Constructors

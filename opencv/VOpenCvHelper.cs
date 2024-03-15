@@ -2,7 +2,9 @@ using System.Drawing;
 using Emgu.CV;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
+using VirigirTools.math;
 
+namespace VirigirTools.opencv;
 
 public static class VOpenCvHelper
 {

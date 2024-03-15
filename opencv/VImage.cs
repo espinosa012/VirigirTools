@@ -3,6 +3,8 @@ using Emgu.CV;
 using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 
+namespace VirigirTools.opencv;
+
 public class VImage : Image<Bgr, byte>
 {
     public VImage(int sizeX, int sizeY)
