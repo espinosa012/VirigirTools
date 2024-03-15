@@ -4,6 +4,10 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>0.0.1</Version>
+        <Authors>espinosa</Authors>
+        <Description>VirigrTools class library       </Description>
+        <RepositoryUrl>https://github.com/espinosa012/VirigirTools/</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,6 +15,10 @@
       <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
       <PackageReference Include="GodotSharp" Version="4.3.0-dev.5" />
       <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="src\" />
     </ItemGroup>
 
 </Project>
