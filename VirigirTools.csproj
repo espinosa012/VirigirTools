@@ -4,7 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.0.1.2</Version>
+        <Version>0.0.1.3</Version>
         <Authors>espinosa</Authors>
         <Description>VirigrTools class library       </Description>
         <RepositoryUrl>https://github.com/espinosa012/VirigirTools/</RepositoryUrl>
