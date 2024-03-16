@@ -1,20 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.0.1</Version>
+        <Version>0.0.1.2</Version>
         <Authors>espinosa</Authors>
         <Description>VirigrTools class library       </Description>
         <RepositoryUrl>https://github.com/espinosa012/VirigirTools/</RepositoryUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Emgu.CV" Version="4.8.1.5350" />
       <PackageReference Include="Emgu.CV.runtime.windows" Version="4.8.1.5350" />
-      <PackageReference Include="GodotSharp" Version="4.3.0-dev.5" />
+      <PackageReference Include="GodotSharp" Version="4.2.1" />
       <PackageReference Include="MathNet.Numerics" Version="6.0.0-beta1" />
+
+      <None Include="README.md" Pack="true" PackagePath="\"/>
+
     </ItemGroup>
 
     <ItemGroup>

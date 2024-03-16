@@ -5,13 +5,14 @@ using Emgu.CV.CvEnum;
 using Emgu.CV.Structure;
 using Godot;
 using Color = Godot.Color;
+
 // Eliminar referencias y usar biblioteca genérica para color (quizá en la biblioteca de Imágenes hay)
 
 
 public static class VPaletteHelper
 {
     // Public methods 
-    public static void CreateGradientPalette(string middleColor, int nColors, int tileSizeX, int tileSizeY,
+    public static void CreateGradientPaletteTileset(string middleColor, int nColors, int tileSizeX, int tileSizeY,
         string filename, string savePath,
         string initialColor = "#FFFFFF", string finalColor = "#000000") =>
         CreatePalettePng(GetGradientPaletteString(nColors, initialColor, finalColor, middleColor), tileSizeX, tileSizeY,

@@ -2,8 +2,10 @@ using Godot;
 
 namespace VirigirTools.logger;
 
-public partial class VLogger : GodotObject
+public class VLogger
 {
+    
+    // TODO: usar herramienta logger opensource externa
 
     public static void Info(string message)
     {
